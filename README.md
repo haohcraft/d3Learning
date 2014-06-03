@@ -10,6 +10,7 @@
 + Data is stored in the DOM: "when the elements are inserted into the DOM, D3 stores the data properties on the DOM nodes themselves"!
 
 [D3 Wiki](https://github.com/mbostock/d3/wiki/Selections)
+
 + selection.append()  "It appends a new element with the specified name as the last child *OF* the parent selection *FOR* each element in the current selection, ..."
 
 		var nums = [80, 53, 125, 200, 28, 97];
@@ -19,4 +20,4 @@
 
 	In above case, the `bars.enter()` is the representation and when `bars.enter().append('rect')` happens, we are appending it (`'rect'`) to the "parent selection" which in this case is the svg and the svg is being in the DOM. 
 
-+selection.data([values[, key]]) Here the joined data is always an *array*, and the *array* can be "an array of an array (matrix)"
++ selection.data([values[, key]]) Here the joined data is always an *array*, and the *array* can be "an array of an array (matrix)"
